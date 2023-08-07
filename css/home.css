@@ -1,3 +1,28 @@
+
+.mota{
+    padding-top: 20px;
+}
+.mota img{
+    width: 100%;
+}
+.mota .content h1{
+    width: 70%;
+}
+.mota .content .noidung{
+    padding-top: 4px;
+}
+.animal{
+    padding-top: 100px;
+}
+.animal h1{
+    text-align: center;
+}
+.animal .row{
+    padding-top: 30px;
+}
+.animal .row img{
+    width: 104%;
+
 * {
     margin: 0;
     padding: 0;
@@ -173,4 +198,5 @@
     .signup_x {
         margin-top: 15px;
     }
+
 }

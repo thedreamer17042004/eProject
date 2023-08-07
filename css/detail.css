@@ -10,3 +10,18 @@
 .animal .row img{
     width: 104%;
 }
+.voi{
+    padding-top: 30px;
+}
+.voi .picture{
+    height: 500px;
+    overflow: hidden;
+}
+.voi img{
+    width: 100%;
+    right: 0;
+    object-fit: cover;
+}
+.voi h1{
+    text-align: center;
+}

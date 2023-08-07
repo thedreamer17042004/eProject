@@ -1,0 +1,12 @@
+.animal{
+    padding-top: 100px;
+}
+.animal h1{
+    text-align: center;
+}
+.animal .row{
+    padding-top: 30px;
+}
+.animal .row img{
+    width: 104%;
+}

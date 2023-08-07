@@ -5,20 +5,118 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/home.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="plugin/animate.min.css">
 
 
   </head>
   <body>
+    <!-- header-nav -->
       <header>
-        <!-- code here -->
+          <div class="container">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light nav-con">
+             <div class="nav-left">
+              <a class="navbar-brand logo" href="index.html">National Parks</a>
+              <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                  aria-expanded="false" aria-label="Toggle navigation"></button>
+             </div>
+              <div class="nav-right">
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item dropdown a_hover">
+                          <a class="nav-link dropdown-toggle " href="contact.html" id="dropdownId"  aria-haspopup="true" aria-expanded="false">Contact</a>
+                          <div class="dropdown-menu drop" aria-labelledby="">
+                              <a class="dropdown-item" href="contact.html">Contact 1</a>
+                              <a class="dropdown-item" href="contact.html">Contact 2</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2 search" type="text" placeholder="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+              </div>
+              </div>
+          </nav>
+          </div>
       </header>
+      <!-- banner -->
+        <div class="banner">
+          <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox ban">
+              <div class="carousel-item active">
+                <img src="assets/images/home/banner1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block banner-con">
+                  <h2>National Parks</h2>
+                  <p>National Parks in VietNam</p>
+                </div>
+              </div>
+              <div class="carousel-item ban">
+                <img src="assets/images/home/banner1.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block banner-con">
+                  <h2>National Parks</h2>
+                  <p>National Parks in VietNam</p>
+                </div>
+              </div>
+          
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
 
       <main>
+
+        <div class="container">
+          <p class="text">
+            Vietnam’s national parks and nature reserves offer tremendous diversity. Northern Vietnam is rich in rice terraces that adorn the lush hilly landscape. Central Vietnam houses the world’s largest caves and the most powerful waterfalls of the country. And in South Vietnam you can experience exotic wildlife in the mangrove forests. Here is our guide to 7 Vietnamese national parks and nature reserves you do not want to miss out on
+          </p>
+          
+        </div>
+        
+            <div class="container">
+                <div class="row">
+                        <div class="iitem col-md-3">
+                            <img src="assets/images/home/body_1.jpg" alt="" class="img_rou">
+                        </div>
+                        <div class="iitem col-md-3">
+                          <img src="assets/images/home/body_2.jpg" alt="" class="img_rou">
+                        </div>
+                        <div class="iitem col-md-3">
+                          <img src="assets/images/home/body_3.jpg" alt="" class="img_rou">
+                        </div>
+                        <div class="iitem col-md-3">
+                          <img src="assets/images/home/body_4.jpg" alt="" class="img_rou">
+                        </div>
+                </div>
+            </div>
+        
+
 
         <div class="container mota">
           <div class="row">
@@ -118,6 +216,7 @@
         <hr>
 
        </div>
+
 
       </main>
 

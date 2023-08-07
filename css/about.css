@@ -7,6 +7,117 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+
+body{
+    font-family: 'Outfit', sans-serif !important;
+}
+header .logo{
+    font-family: Georgia, 'Times New Roman';
+    font-size: 35px;
+}
+header .logo:hover{
+    background-color: rgb(238, 191, 158);
+    border-radius: 20px;
+    padding: 5px;
+}
+header .nav-item a {
+    font-size: 20px;
+    color: black !important;
+}
+header .nav-item :hover{
+    color:  chocolate !important;
+}
+header .a_hover:hover .drop {
+    display: block !important;
+}
+header .nav-con{
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(252, 249, 249) !important;
+}
+header .nav-con form {
+    margin-left: 10px;
+}
+header .nav-con form input.search {
+    width: 150px;
+    outline: none !important;
+}
+header .nav-con form button{
+    border: none !important;
+    background-color: chocolate;
+    color: black;
+}
+header .nav-con form button:hover{
+    background-color:gray !important;
+    color: black;
+}
+header .dropdown-menu {
+    background-color: cornsilk;
+}
+header .dropdown-menu .dropdown-item:hover {
+    font-size: 25px !important;
+}
+/* banner */
+.banner img{
+    width: 100%; 
+}
+.banner .ban{
+    position: relative;
+}
+.banner .banner-con{
+    position: absolute;
+    top :50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+.banner .banner-con h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.banner .banner-con p{
+    font-size: 20px;
+}
+main{
+    margin-top: 50px;
+}
+main  p.text{
+    text-align: center;
+    font-size: 20px;
+}
+.main .anh img.imgs{
+    height: auto !important;
+    width: 90% !important;
+}
+
+main .img_rou{
+    width: 100%;
+}
+
+.mota{
+    padding-top: 80px;
+}
+.mota img{
+    width: 100%;
+}
+.mota .content h1{
+    width: 70%;
+}
+.mota .content .noidung{
+    padding-top: 4px;
+}
+.animal{
+    padding-top: 100px;
+}
+.animal h1{
+    text-align: center;
+}
+.animal .row{
+    padding-top: 30px;
+}
+.animal .row img{
+    width: 104%;
+}
+
 .content {
     width: 100%;
 }

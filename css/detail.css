@@ -217,3 +217,13 @@ main .img_rou{
 .animal .row img{
     width: 104%;
 }
+@media screen and (max-width: 540px) {
+  
+
+
+
+  
+    header .nav-con form {
+        display: none !important;
+    }
+}

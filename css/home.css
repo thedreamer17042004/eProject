@@ -286,4 +286,9 @@ main .img_rou{
     }
 
 
+  
+    header .nav-con form {
+        display: none !important;
+    }
 }
+

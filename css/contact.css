@@ -1,0 +1,168 @@
+body{
+    font-family: 'Outfit', sans-serif !important;
+}
+header .logo{
+    font-family: Georgia, 'Times New Roman';
+    font-size: 35px;
+}
+header .logo:hover{
+    background-color: rgb(238, 191, 158);
+    border-radius: 20px;
+    padding: 5px;
+}
+header .nav-item a {
+    font-size: 20px;
+    color: black !important;
+}
+header .nav-item :hover{
+    color:  chocolate !important;
+}
+header .a_hover:hover .drop {
+    display: block !important;
+}
+header .nav-con{
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(252, 249, 249) !important;
+}
+header .nav-con form {
+    margin-left: 10px;
+}
+header .nav-con form input.search {
+    width: 150px;
+    outline: none !important;
+}
+header .nav-con form button{
+    border: none !important;
+    background-color: chocolate;
+    color: black;
+}
+header .nav-con form button:hover{
+    background-color:gray !important;
+    color: black;
+}
+header .dropdown-menu {
+    background-color: cornsilk;
+}
+header .dropdown-menu .dropdown-item:hover {
+    font-size: 25px !important;
+}
+header button{
+    
+}
+/* banner */
+.banner img{
+    width: 100%; 
+}
+.banner .ban{
+    position: relative;
+}
+.banner .banner-con{
+    position: absolute;
+    top :50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+.banner .banner-con h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.banner .banner-con p{
+    font-size: 20px;
+}
+main{
+    margin-top: 50px;
+}
+main  p.text{
+    text-align: center;
+    font-size: 20px;
+}
+.main .anh img.imgs{
+    height: auto !important;
+    width: 90% !important;
+}
+.map {
+    width: 100%;
+    height: auto;
+}
+.map iframe{
+    width: 100%;
+}
+.than{
+    margin-top: 100px;
+}
+.than .form-date input.butt {
+    background-color: #ffc107;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: white;     
+}
+.than .form-date input.butt:hover{
+    background-color: chocolate;     
+}
+.than .form-date .form-right .foright-item{
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.than .form-date .form-right .foright-item i{
+    margin-right: 6px;
+    color: #ffc107;
+    font-size: 22px !important;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.signup {
+    color: #EDC229;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+
+}
+.after_signup {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+
+}
+.input_signup {
+    width: 90%;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+}
+.btnn_signup {
+    width: 90%;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    background-color: #EDC229;
+}
+.ul_footer {
+    list-style: none;
+}
+.a_footer {
+    color: black;
+    display:block;
+}
+.media > img {
+    padding: 3px;
+}
+.info_footer {
+    margin-top: 15px;
+    display: block;
+    font-style: italic;
+    font-family: 'Outfit', sans-serif;
+}
+@media screen and (max-width: 820px) {
+    .than .form-date .form-right .foright-item{
+        margin-left: 0;
+    }
+    header form.nones{
+        display: none;
+    }
+   
+}
+
